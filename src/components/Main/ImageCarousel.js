@@ -1,25 +1,25 @@
-import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import { makeStyles } from '@material-ui/core/styles';
-import Carousel1 from '../../img/carousel1.jpg';
-import Carousel2 from '../../img/carousel2.jpg';
-import Carousel3 from '../../img/carousel3.jpg';
+import React from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+import { makeStyles } from '@material-ui/core/styles'
+import Carousel1 from '../../img/carousel1.jpg'
+import Carousel2 from '../../img/carousel2.jpg'
+import Carousel3 from '../../img/carousel3.jpg'
 
 const useStyles = makeStyles(() => ({
   carouselStyle: {
     width: '98%',
     height: 'auto',
     margin: 'auto',
-    padding: '5em'
+    padding: '5em',
   },
   carouselCaptions: {
     backgroundColor: '#000000',
     opacity: 0.6,
   },
   carouselStyle2: {
-    backgroundColor: '#000000'
-  }
-}));
+    backgroundColor: '#000000',
+  },
+}))
 
 export default function ImageCarousel() {
   const classes = useStyles()
@@ -54,5 +54,5 @@ export default function ImageCarousel() {
         </Carousel.Item>
       </Carousel>
     </>
-  );
+  )
 }

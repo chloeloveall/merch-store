@@ -21,7 +21,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-function ImageCarousel() {
+export default function ImageCarousel() {
   const classes = useStyles()
 
   return (
@@ -56,5 +56,3 @@ function ImageCarousel() {
     </>
   );
 }
-
-export default ImageCarousel

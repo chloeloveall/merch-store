@@ -1,7 +1,7 @@
 import React from 'react';
 import ImageCarousel from './ImageCarousel';
 
-function Main() {
+export default function Main() {
   
   return (
     <>
@@ -9,5 +9,3 @@ function Main() {
     </>
   );
 }
-
-export default Main;

@@ -1,8 +1,7 @@
 import React from 'react'
-
 import { Input } from 'semantic-ui-react'
 
-function Search() {
+export default function Search() {
   return (
     <>
       <Input
@@ -12,7 +11,5 @@ function Search() {
         placeholder="Search"
       />
     </>
-  )
+  );
 }
-
-export default Search

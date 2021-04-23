@@ -1,6 +1,6 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Carousel from 'react-bootstrap/Carousel';
+import { makeStyles } from '@material-ui/core/styles';
 import Carousel1 from '../../img/carousel1.jpg';
 import Carousel2 from '../../img/carousel2.jpg';
 import Carousel3 from '../../img/carousel3.jpg';

@@ -1,6 +1,6 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import AppBar from '@material-ui/core/AppBar'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -8,19 +8,18 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#EAFF00',
     color: '#000000',
     maxHeight: '2em',
-    position: 'fixed'
+    position: 'fixed',
   },
   title: {
     flexGrow: 1,
     margin: 'auto',
     padding: '.25em',
-    fontWeight: 'bold'
-  }
-}));
+    fontWeight: 'bold',
+  },
+}))
 
 export default function Promo() {
-
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <>
@@ -28,5 +27,5 @@ export default function Promo() {
         <p className={classes.title}>FREE SHIPPING ON ALL ORDERS!</p>
       </AppBar>
     </>
-  );
+  )
 }

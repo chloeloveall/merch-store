@@ -40,5 +40,5 @@ export default function Logo() {
         </Typography>
       </Typography>
     </>
-  );
+  )
 }

@@ -15,20 +15,18 @@ const useStyles = makeStyles((theme) => ({
     margin: 'auto',
     padding: '.25em',
     fontWeight: 'bold'
-  },
+  }
 }));
 
-function Promo() {
+export default function Promo() {
 
   const classes = useStyles();
 
   return (
     <>
       <AppBar position="static" className={classes.root}>
-          <p className={classes.title}>FREE SHIPPING ON ALL ORDERS!</p>
+        <p className={classes.title}>FREE SHIPPING ON ALL ORDERS!</p>
       </AppBar>
     </>
-  )
+  );
 }
-
-export default Promo

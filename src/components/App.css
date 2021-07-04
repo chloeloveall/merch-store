@@ -1,0 +1,26 @@
+.yellowX {
+  background-image: url('../img/footerX.png');
+  background-position: left 0px bottom 0px;
+  /* background-attachment: sticky; */
+  /* backgroundSize: 'cover', */
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+}
+
+/* @media (max-width: 480px) {
+  body {
+    background-image: url('../img/footerXPhone.png');
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-image: url('../img/footerXTablet.png');
+  }
+} 
+
+@media (min-width: 1025px) {
+  body {
+    background-image: url('../img/footerX.png');
+  }
+} */
